@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>星空选书查询系统</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles/styles.css">
+    <script src="scripts/main.js" type="module" defer></script>
+</head>
+<body>
+<header>
+    <h1>星空选书查询系统</h1>
+</header>
+<main>
+    <div class="queryParam">
+        <form method="post" id="grade-form">
+            <label for="grade-select">年级</label>
+            <br>
+            <select name="grade" id="grade-select">
+                <option value="2020">2020</option>
+                <option value="2021">2021</option>
+                <option value="2022">2022</option>
+                <option value="2023">2023</option>
+            </select>
+            <br>
+            <input type="submit" value="查询专业">
+        </form>
+        <form method="get" id="major-form">
+            <label for="major-select">专业</label>
+            <br>
+            <select name="major" id="major-select">
+            </select>
+        </form>
+        <button id="query">查询</button>
+    </div>
+    <div class="queryResult">
+        <div id="bookCardContainer">
+<!--            <ul>-->
+<!--                <li>书名</li>-->
+<!--                <li>ISBN</li>-->
+<!--                <li>出版社</li>-->
+<!--                <li>课程名称</li>-->
+<!--                <li>任教老师</li>-->
+<!--                <li>开设学院</li>-->
+<!--            </ul>-->
+        </div>
+    </div>
+</main>
+<footer>
+    目前处于内测阶段。
+</footer>
+</body>
+</html>

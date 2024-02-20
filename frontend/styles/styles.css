@@ -1,0 +1,105 @@
+body {
+    background-color: antiquewhite;
+}
+
+h1 {
+    font-family: 隶书, serif;
+    color: brown;
+    background-color: aquamarine;
+    margin: 1rem auto;
+    text-align: center;
+}
+
+Button,
+input[type='submit'] {
+    box-shadow: 0px 10px 14px -7px #3e7327;
+    background:linear-gradient(to bottom, #77b55a 5%, #72b352 100%);
+    background-color:#77b55a;
+    border-radius:4px;
+    border:1px solid #4b8f29;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:16px;
+    font-weight:bold;
+    padding:6px 12px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #5b8a3c;
+    margin: 1rem;
+}
+Button:hover {
+    background:linear-gradient(to bottom, #72b352 5%, #77b55a 100%);
+    background-color:#72b352;
+}
+Button:active {
+    position:relative;
+    top:1px;
+}
+
+img {
+    max-height: 40vh;
+    transition: .6s;
+}
+
+img:hover {
+    transform: scale(200%);
+}
+
+form {
+    color: chocolate;
+    margin: 1rem auto;
+    font-size: 1.5rem;
+    /*display: flex;*/
+}
+
+select {
+    font-size: 1rem;
+    color: brown;
+    min-width: 10%;
+    max-width: 70%;
+}
+
+.queryParam {
+    text-align: center;
+}
+
+
+footer {
+    font-size: 0.8rem;
+    color: #72b352;
+    text-align: right;
+    /*width: 100vw;*/
+    position: fixed;
+    right: 0;
+    bottom: 0;
+
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    border-top: brown solid 2px;
+}
+
+#bookCardContainer {
+    border: chocolate solid 3px;
+    padding: .5rem 1rem;
+    min-height: 30vh;
+}
+
+
+#bookCardContainer .bookCard {
+    border: rgb(135, 99, 168) dotted 2px;
+    text-align: center;
+    margin: 1rem 1rem;
+}
+
+/*li {*/
+/*    margin: .3rem auto;*/
+/*}*/
+.bookCard ul {
+    list-style-type: none;
+}
+
+.bookCard ul li:nth-of-type(1) {
+    font-size: 1.2rem;
+    color: brown;
+}
