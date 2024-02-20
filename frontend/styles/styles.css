@@ -39,6 +39,7 @@ Button:active {
 
 img {
     max-height: 40vh;
+    max-width: 85%;
     transition: .6s;
 }
 
